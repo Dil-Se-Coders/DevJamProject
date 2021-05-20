@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "338131139243",
+    "project_id": "intellect-addict-e541c",
+    "storage_bucket": "intellect-addict-e541c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338131139243:android:0d0e1b4ba252e802e595ee",
+        "android_client_info": {
+          "package_name": "com.dilsecoders.intellect_addict"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338131139243-f133ojl7prfp4ul4n7fn88nr34babin2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dilsecoders.intellect_addict",
+            "certificate_hash": "d33c0c49a4b6bf3dceda5530ec6d3dd00449ca77"
+          }
+        },
+        {
+          "client_id": "338131139243-7vhcoif17dafhvqluqibn02b50rvha40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6pGvt2A8Zx0p1PbUG08QjwihGCG5_SIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338131139243-7vhcoif17dafhvqluqibn02b50rvha40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

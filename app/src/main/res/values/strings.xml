@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Intellect_Addict</string>
+    <string name="btnSignIn">Button</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="todo">TODO</string>
+    <string name="signupbtn">Button</string>
+    <string name="button">Button</string>
+</resources>
