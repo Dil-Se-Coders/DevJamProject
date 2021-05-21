@@ -39,7 +39,7 @@ public class SignInActivity extends AppCompatActivity {
         password = findViewById(R.id.password);
         btnSignIn = findViewById(R.id.btnSignIn);
         signupbtn = findViewById(R.id.signupbtn);
-
+        firebaseAuth =FirebaseAuth.getInstance();
         firebaseDatabase = FirebaseDatabase.getInstance();
         mAuthStateListener = new FirebaseAuth.AuthStateListener() {
             @Override

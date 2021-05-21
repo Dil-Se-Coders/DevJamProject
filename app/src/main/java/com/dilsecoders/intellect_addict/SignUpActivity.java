@@ -57,7 +57,7 @@ public class SignUpActivity extends AppCompatActivity {
                                     if(!task.isSuccessful()){
                                         Toast.makeText(SignUpActivity.this, "Try Again!", Toast.LENGTH_SHORT).show();
                                     }else {
-                                        UserDetails userDetails = new UserDetails(fName);
+                                        UserDetails userDetails = new UserDetails(fName, email);
                                         String uid = task.getResult().getUser().getUid();
                                         firebaseDatabase.getReference(uid).setValue(userDetails)
                                                 .addOnSuccessListener(new OnSuccessListener<Void>() {
