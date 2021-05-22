@@ -26,13 +26,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="280dp"
+        android:autofillHints=""
         android:ems="10"
         android:fontFamily="@font/biryani_extralight"
+        android:hint="Enter Email"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView2"
-        android:autofillHints="" />
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
 
     <EditText
         android:id="@+id/editTextPassword1"
@@ -40,17 +41,18 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:fontFamily="@font/biryani_extralight"
+        android:hint="Enter Password"
+        android:importantForAutofill="no"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextEmailAddress1"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmailAddress1" />
 
-    <Button
+    <TextView
         android:id="@+id/signupbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button"
+        android:text="Not a member yet? Sign up!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

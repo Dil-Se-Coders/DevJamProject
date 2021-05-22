@@ -2,7 +2,10 @@ package com.dilsecoders.intellect_addict;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.dilsecoders.intellect_addict.R;
@@ -26,6 +29,12 @@ public class Recommendation extends AppCompatActivity {
         Inspirational.add(new books(R.drawable.modern_mythology, "Modern Mythology"));
         Inspirational.add(new books(R.drawable.princess_nobody, "Princess Nobody"));
         Inspirational.add(new books(R.drawable.power_ofpositivethinking, "Power of Positive Thinking"));
+        listView1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+            }
+        });
 
         bookAdapter bookAdapter1 = new bookAdapter(this, R.layout.list_row, Inspirational);
         listView1.setAdapter(bookAdapter1);

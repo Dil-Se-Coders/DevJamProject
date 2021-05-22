@@ -29,7 +29,7 @@ public class SignInActivity extends AppCompatActivity {
     FirebaseAuth firebaseAuth;
     FirebaseDatabase firebaseDatabase;
     private FirebaseAuth.AuthStateListener mAuthStateListener;
-    Button signupbtn;
+    TextView signupbtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
