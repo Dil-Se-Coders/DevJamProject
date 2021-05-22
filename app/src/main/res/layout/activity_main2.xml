@@ -6,13 +6,81 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
-  <Button
-      android:id="@+id/logout"
+  <TextView
+      android:id="@+id/interests"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="Button"
+      android:layout_marginBottom="350dp"
+      android:text="Interests"
+      android:textColor="#2196F3"
+      android:textSize="24sp"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.173"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.415" />
+
+  <LinearLayout
+      android:layout_width="236dp"
+      android:layout_height="wrap_content"
+      android:layout_margin="20dp"
+      android:layout_marginRight="50dp"
+      android:orientation="vertical"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.211"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.55">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="InspirationPg"
+        android:text="@string/int1"
+        app:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="RomanticPg"
+        android:text="@string/int2"
+        app:backgroundTint="#E84B80" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="MysteryPg"
+        android:text="@string/INT6"
+        app:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ThrillerPg"
+        android:text="@string/int3"
+        app:backgroundTint="#E84B80" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="FictionPg"
+        android:text="@string/int4"
+        app:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="HorrorPg"
+        android:text="@string/INT5"
+        app:backgroundTint="#E84B80" />
+  </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

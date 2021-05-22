@@ -5,4 +5,14 @@
     <string name="todo">TODO</string>
     <string name="signupbtn">Button</string>
     <string name="button">Button</string>
+    <string name="int1">INSPIRATIONAL</string>
+    <string name="int2">ROMANTIC</string>
+    <string name="int3">THRILLER</string>
+    <string name="int4">Fiction</string>
+    <string name="INT5">HORROR</string>
+    <string name="INT6">MYSTERY</string>
+    <string name="interest">INTERESTS</string>
+    <string name="heading_interests">Based on Your Interests</string>
+    <string name="image123">Image</string>
+    <string name="title_activity_romantic">Romantic</string>
 </resources>

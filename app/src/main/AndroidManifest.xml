@@ -10,7 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Intellect_Addict">
         <activity android:name=".SignInActivity"></activity>
+        <activity android:name=".Horror"></activity>
+        <activity android:name=".Fiction" />
+        <activity android:name=".Thriller" />
+        <activity android:name=".Mystery" />
+        <activity android:name=".Romantic" />
+        <activity
+            android:name=".Recommendation"
+            android:parentActivityName=".MainActivity2" />
         <activity android:name=".MainActivity2"></activity>
+
         <activity android:name=".SignUpActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
